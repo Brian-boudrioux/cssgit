@@ -27,3 +27,43 @@ header h1 {
 header nav ul li {
     display: inline;
 }
+
+main section {
+    width: 50%;
+    margin: auto;
+}
+
+main section h1 {
+    text-align: center;
+}
+
+main section p {
+    text-align: center;
+}
+
+main section#leaders div#leaders-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    height: 40rem;
+    margin-top: 10px;
+}
+
+main section#leaders div#leaders-grid article {
+    background: gray;
+    height: auto;
+}
+
+main section#leaders div#leaders-grid article:nth-child(1) {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+main section#leaders div#leaders-grid article:nth-child(3) {
+    grid-row: 2 / 4;
+}
+
+main section#leaders div#leaders-grid article:nth-child(7) {
+    grid-column: 2 / 4;
+}
