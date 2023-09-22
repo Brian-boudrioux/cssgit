@@ -1,5 +1,27 @@
 header nav {
     display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 100%;
+}
+
+header {
+    min-height: 500px;
+    background: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
 }
 
 header nav ul li {
